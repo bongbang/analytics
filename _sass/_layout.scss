@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    text-transform: lowercase;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -14,6 +15,7 @@
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
+    text-transform: lowercase;
     // letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -34,6 +36,7 @@
 
     .page-link {
         color: $text-color;
+        text-transform: lowercase;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -106,6 +109,7 @@
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
     font-weight: 400;
+    text-transform: lowercase;
 }
 
 .contact-list,
@@ -215,6 +219,10 @@
         font-weight: 400;
         font-style: italic;
         font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
     }
 }
 
@@ -245,15 +253,15 @@
         font-style: italic;
 
         @include media-query($on-laptop) {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 14px;
         }
     }
 }
