@@ -213,12 +213,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    line-height: 1.2;
 
     h2 {
         color: $grey-color;
         font-weight: 400;
         font-style: italic;
         font-size: 22px;
+        margin-top: .8em;
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -228,8 +230,9 @@
 
 .post-title {
     font-size: 36px;
+    margin-bottom: 0;
     // letter-spacing: -1px;
-    line-height: 1;
+    // line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 32px;
