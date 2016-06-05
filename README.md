@@ -1,3 +1,3 @@
-# analytics
+# analytics paralytics
 
-Analyses published here.
+My website hosted at: <bongbang.github.io/analytics/>
