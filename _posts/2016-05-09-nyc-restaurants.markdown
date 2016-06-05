@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Inspect the uninspected"
-subhead: "A look at how NYC restaurants make the grade"
+title:  "Inspecting the uninspected"
+subhead: "NYC restaurants are making the grade, but how?"
 date:   2016-05-09 14:39:40 -0700
 categories: government restaurant nyc
 ---

@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is a repository for Tom Vamvanij's analytics project, and perhaps other stuff on occasion.
+Tom Vamvanij's analytics projects, and perhaps other stuff in between.
 
 My email and github link are in the footer.
