@@ -2,13 +2,17 @@
 layout: post
 title:  "Inspecting the uninspected"
 subhead: "NYC restaurants are making the grade, but how?"
+thumbnail: NYC_restaurants/thumbnail.png
+custom-css: ['https://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.css']
 date:   2016-05-09 14:39:40 -0700
 categories: government restaurant nyc
 ---
 
 ![grade card on window]({{ site.baseurl }}/images/NYC_restaurants/window_grade.jpg)
 
-When it comes to New York City restaurant inspection, "A" really is for average. Based on my analysis of the [official dataset][], 9 out of 10 restaurants earned the top grade in 2015, a level of distinction (or lack thereof) rarely seen this side of Yale's English Department.
+ When it comes to New York City restaurant inspection, "A" really is for average. Based on my analysis of the [official dataset][], 9 out of 10 restaurants earned the top grade in 2015, a level of distinction (or lack thereof) rarely seen this side of Yale's English Department.
+
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.js"></script>
 
   [official dataset]: http://www.opendatanetwork.com/dataset/data.cityofnewyork.us/9w7m-hzhe
 

@@ -188,7 +188,7 @@
 }
 
 
-.post-list {
+.post-list {  // can be changed to #home ul
     margin-left: 0;
     list-style: none;
 
@@ -197,17 +197,28 @@
     }
 }
 
+.post-list li {
+    overflow: auto;
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    // clear: both;
 }
 
-.post-link {
-    display: block;
+.post-list img {
+    float: right;
+}
+
+.post-link { // can be changed to #home h2 a OR .post-list h2 a
+    // display: block;
     font-size: 24px;
 }
 
-
+.rss-subscribe {
+    clear: both;
+}
 
 /**
  * Posts

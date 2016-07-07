@@ -10,11 +10,13 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+				{% if post.thumbnail %}
+				<img src="{{ site.baseurl }}/images/{{ post.thumbnail }}" height='200' width='200' alt='thumbnail'>
+				{% endif %}
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | smartify }}</a>
         </h2>
-        <p>{{ post.subhead }}</p>
+        <p>{{ post.subhead | smartify }}</p>
       </li>
     {% endfor %}
   </ul>
