@@ -1,3 +1,3 @@
-# analytics paralytics
+# Analytics Paralytics
 
-My website hosted at <https://bongbang.github.io/analytics/>.
+My blog for data analytics projects hosted at <https://bongbang.github.io/analytics/>.
